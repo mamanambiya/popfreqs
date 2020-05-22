@@ -1,4 +1,4 @@
-# HAfrica Population frequencies
+# H3Africa Population frequencies
 
 **Frequencies of populations in H3Africa**.
 
