@@ -1,0 +1,15 @@
+# This file contains allele frequency files for different populations/projects
+# Format: Dataset/Population name, file location
+
+
+BOTSWANA    , /scratch/users/mamana/popfreqs/BOTSWANA/BOTSWANA_H3A_22_MAF.frq, BOTSWANA
+# BOTSWANA    , /scratch/users/mamana/popfreqs/BOTSWANA/BOTSWANA_1-22_MAF.frq
+ZULU        , /scratch/users/mamana/popfreqs/ZULU/ZULU_SANGER_22_MAF.frq, ZULU
+# KG         , /scratch/users/mamana/reference/pop_mafs/KG/KG.chr%s.mafs
+# gnomAD     , /scratch/users/mamana/reference/pop_mafs/gnomAD/gnomAD.chr%s.mafs
+# ExAC       , /scratch/users/mamana/reference/pop_mafs/ExAC/ExAC.chr%s.mafs
+# agvp       , /scratch/users/mamana/reference/pop_mafs/agvp/agvp.chr%s.mafs
+# TOPMED     , /scratch/users/mamana/reference/pop_mafs/topmed/topmed.chr%s.mafs
+# sahgp      , /scratch/users/mamana/reference/pop_mafs/sahgp/sahgp.chr%s.mafs
+# trypanogen , /scratch/users/mamana/reference/pop_mafs/trypanogen.all.phased.frq.mamana_ready_
+# other      , /scratch/users/mamana/reference/pop_mafs/dbNSFPv3.5a_b37_af_final.frq
