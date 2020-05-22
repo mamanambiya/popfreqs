@@ -5,3 +5,9 @@ results/
 .DS_Store
 tests/test_data
 *.pyc
+.idea/
+ILIFU/
+.vscode
+assets
+.history
+.gitignore
