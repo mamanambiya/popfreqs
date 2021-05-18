@@ -1,15 +1,54 @@
-# This file contains allele frequency files for different populations/projects
-# Format: Dataset/Population name, file location
-
-
-BOTSWANA    , /scratch/users/mamana/popfreqs/BOTSWANA/BOTSWANA_H3A_22_MAF.frq, BOTSWANA
-# BOTSWANA    , /scratch/users/mamana/popfreqs/BOTSWANA/BOTSWANA_1-22_MAF.frq
-ZULU        , /scratch/users/mamana/popfreqs/ZULU/ZULU_SANGER_22_MAF.frq, ZULU
-# KG         , /scratch/users/mamana/reference/pop_mafs/KG/KG.chr%s.mafs
-# gnomAD     , /scratch/users/mamana/reference/pop_mafs/gnomAD/gnomAD.chr%s.mafs
-# ExAC       , /scratch/users/mamana/reference/pop_mafs/ExAC/ExAC.chr%s.mafs
-# agvp       , /scratch/users/mamana/reference/pop_mafs/agvp/agvp.chr%s.mafs
-# TOPMED     , /scratch/users/mamana/reference/pop_mafs/topmed/topmed.chr%s.mafs
-# sahgp      , /scratch/users/mamana/reference/pop_mafs/sahgp/sahgp.chr%s.mafs
-# trypanogen , /scratch/users/mamana/reference/pop_mafs/trypanogen.all.phased.frq.mamana_ready_
-# other      , /scratch/users/mamana/reference/pop_mafs/dbNSFPv3.5a_b37_af_final.frq
+# ACB        ,/scratch/users/mamana/popfreqs/ACB/ACB_1-22_MAF.frq                              ,African Caribbeans in Barbados from 1000 Genomes project 
+# CHS        ,/scratch/users/mamana/popfreqs/CHS/CHS_1-22_MAF.frq                              ,CHS
+# GBR        ,/scratch/users/mamana/popfreqs/GBR/GBR_1-22_MAF.frq                              ,GBR
+# LWK        ,/scratch/users/mamana/popfreqs/LWK/LWK_1-22_MAF.frq                              ,LWK
+# STU        ,/scratch/users/mamana/popfreqs/STU/STU_1-22_MAF.frq                              ,STU
+# ASW        ,/scratch/users/mamana/popfreqs/ASW/ASW_1-22_MAF.frq                              ,ASW
+# CLM        ,/scratch/users/mamana/popfreqs/CLM/CLM_1-22_MAF.frq                              ,CLM
+# GHANA      ,/scratch/users/mamana/popfreqs/GHANA/GHANA_1-22_MAF.frq                          ,GHANA
+# MALI       ,/scratch/users/mamana/popfreqs/MALI/MALI_1-22_MAF.frq                            ,MALI
+# TSI        ,/scratch/users/mamana/popfreqs/TSI/TSI_1-22_MAF.frq                              ,TSI
+# BEB        ,/scratch/users/mamana/popfreqs/BEB/BEB_1-22_MAF.frq                              ,BEB
+# COTE       ,/scratch/users/mamana/popfreqs/COTE/COTE_1-22_MAF.frq                            ,COTE
+# GIH        ,/scratch/users/mamana/popfreqs/GIH/GIH_1-22_MAF.frq                              ,GIH
+# MSL        ,/scratch/users/mamana/popfreqs/MSL/MSL_1-22_MAF.frq                              ,MSL
+# UGANDA     ,/scratch/users/mamana/popfreqs/UGANDA/UGANDA_1-22_MAF.frq                        ,UGANDA
+# BENIN      ,/scratch/users/mamana/popfreqs/BENIN/BENIN_1-22_MAF.frq                          ,BENIN
+# DRC        ,/scratch/users/mamana/popfreqs/DRC/DRC_1-22_MAF.frq                              ,DRC
+# GUINEA     ,/scratch/users/mamana/popfreqs/GUINEA/GUINEA_1-22_MAF.frq                        ,GUINEA
+# MXL        ,/scratch/users/mamana/popfreqs/MXL/MXL_1-22_MAF.frq                              ,MXL
+# XHOSA      ,/scratch/users/mamana/popfreqs/XHOSA/XHOSA_1-22_MAF.frq                          ,XHOSA
+# BOTSWANA   ,/scratch/users/mamana/popfreqs/BOTSWANA/BOTSWANA_1-22_MAF.frq                    ,CAFGEN from H3Africa project
+# EGYPT      ,/scratch/users/mamana/popfreqs/EGYPT/EGYPT_1-22_MAF.frq                          ,EGYPT
+# GWD        ,/scratch/users/mamana/popfreqs/GWD/GWD_1-22_MAF.frq                              ,GWD
+# NIGERIA    ,/scratch/users/mamana/popfreqs/NIGERIA/NIGERIA_1-22_MAF.frq                      ,NIGERIA
+YRI        ,/scratch/users/mamana/popfreqs/YRI/YRI_1-22_MAF.frq                              ,YRI
+# BURKINA    ,/scratch/users/mamana/popfreqs/BURKINA/BURKINA_1-22_MAF.frq                      ,BURKINA
+# EGYPT      ,/scratch/users/mamana/popfreqs/EGYPT/EGYPT_21-22_MAF.frq                         ,EGYPT
+# IBS        ,/scratch/users/mamana/popfreqs/IBS/IBS_1-22_MAF.frq                              ,IBS
+# PEL        ,/scratch/users/mamana/popfreqs/PEL/PEL_1-22_MAF.frq                              ,PEL
+# ZAMBIA     ,/scratch/users/mamana/popfreqs/ZAMBIA/ZAMBIA_1-22_MAF.frq                        ,ZAMBIA
+# CAMEROON   ,/scratch/users/mamana/popfreqs/CAMEROON/CAMEROON_1-22_MAF.frq                    ,CAMEROON
+# EL-SHEIKH  ,/scratch/users/mamana/popfreqs/EL-SHEIKH/EL-SHEIKH_1-22_MAF.frq                  ,EL
+# ITU        ,/scratch/users/mamana/popfreqs/ITU/ITU_1-22_MAF.frq                              ,ITU
+# PJL        ,/scratch/users/mamana/popfreqs/PJL/PJL_1-22_MAF.frq                              ,PJL
+ZULU       ,/scratch/users/mamana/popfreqs/ZULU/ZULU_1-22_MAF.frq                            ,ZULU
+# CDX        ,/scratch/users/mamana/popfreqs/CDX/CDX_1-22_MAF.frq                              ,CDX
+# ESN        ,/scratch/users/mamana/popfreqs/ESN/ESN_1-22_MAF.frq                              ,ESN
+# JPT        ,/scratch/users/mamana/popfreqs/JPT/JPT_1-22_MAF.frq                              ,JPT
+# PUR        ,/scratch/users/mamana/popfreqs/PUR/PUR_1-22_MAF.frq                              ,PUR
+# CEU        ,/scratch/users/mamana/popfreqs/CEU/CEU_1-22_MAF.frq                              ,CEU
+# ETHIOPIA   ,/scratch/users/mamana/popfreqs/ETHIOPIA/ETHIOPIA_1-22_MAF.frq                    ,ETHIOPIA
+# KHOESAN    ,/scratch/users/mamana/popfreqs/KHOESAN/KHOESAN_1-22_MAF.frq                      ,KHOESAN
+# SHARQIA    ,/scratch/users/mamana/popfreqs/SHARQIA/SHARQIA_1-22_MAF.frq                      ,SHARQIA
+# CHB        ,/scratch/users/mamana/popfreqs/CHB/CHB_1-22_MAF.frq                              ,CHB
+# FIN        ,/scratch/users/mamana/popfreqs/FIN/FIN_1-22_MAF.frq                              ,FIN
+# KHV        ,/scratch/users/mamana/popfreqs/KHV/KHV_1-22_MAF.frq                              ,KHV
+# SOTHO      ,/scratch/users/mamana/popfreqs/SOTHO/SOTHO_1-22_MAF.frq                          ,SOTHO
+# KG         ,/scratch/users/mamana/reference/pop_mafs/KG/KG.chr%s.mafs                        ,KG
+# gnomAD     ,/scratch/users/mamana/reference/pop_mafs/gnomAD/gnomAD.chr%s.mafs                ,gnomAD
+# ExAC       ,/scratch/users/mamana/reference/pop_mafs/ExAC/ExAC.chr%s.mafs                    ,ExAC
+# agvp       ,/scratch/users/mamana/reference/pop_mafs/agvp/agvp.chr%s.mafs                    ,agvp
+# TOPMED     ,/scratch/users/mamana/reference/pop_mafs/topmed/topmed.chr%s.mafs                ,TOPMED
+# sahgp      ,/scratch/users/mamana/reference/pop_mafs/sahgp/sahgp.chr%s.mafs                  ,sahgp
+# trypanogen ,/scratch/users/mamana/reference/pop_mafs/trypanogen.all.phased.frq.mamana_ready_ ,trypanogen

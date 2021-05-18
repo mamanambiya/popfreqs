@@ -212,6 +212,7 @@ workflow{
 
     datasets_all_cha = Channel.from(datasets_all).map{ it -> [ it[0], it[1], it[3] ] }
     preprocess(datasets_all_cha)
+    // Channel.fromPath("/scratch/users/mamana/popfreqs/**/*_1-22_MAF.frq").view()
     mafs = Channel
         .from(file(params.mafs_annotations))
         .splitCsv(strip: true, sep: ',')
@@ -220,7 +221,7 @@ workflow{
                 return it
             }
         }
-    annotate(preprocess.out.vcf_sites.combine(mafs))
+    annotate(preprocess.out.vcf_sites.combine(mafs)).view()
     postprocess( annotate.out.annotated_vcfs.groupTuple().map{ it -> [ it[0], [it[0]], it[1] ] }.view() )
 }
 

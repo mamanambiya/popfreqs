@@ -1,6 +1,5 @@
 .nextflow*
 work/
-data/
 results/
 .DS_Store
 tests/test_data
@@ -11,3 +10,5 @@ ILIFU/
 assets
 .history
 .gitignore
+.travis.yml
+.travis.yml
